@@ -1,0 +1,195 @@
+body {
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+}
+
+header {
+    width: 100%;
+    background-color: #8268a9;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    .logo {
+        vertical-align: middle;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 6vw;
+        display: inline;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+    li {
+        list-style: none;
+        display: inline;
+        margin-right: 2vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #c4b3d6;
+    }
+}
+
+.conteudo-principal {
+    width: 77%;
+    display: inline-block;
+    vertical-align: top;
+
+    h2 {
+        color: #8268a9;
+        text-transform: uppercase;
+    }
+
+    article {
+        /* Nao teve efeito, consultar com o Tupinamba */
+        overflow: auto;
+    }
+}
+
+/* Barra Lateral */
+aside {
+    width: 22%;
+    display: inline-block;
+    vertical-align: middle;
+
+    h2 {
+        color: #8268a9;
+        text-transform: uppercase;
+    }
+
+    .msc {
+        width: 50%;
+    }
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    background-color: #8268a9;
+    color: #ffffff;
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    li {
+        list-style: none;
+        display: inline;
+    }
+}
+
+p {
+    font-size: 1.5vw;
+    color: #64518c;
+}
+
+/* Começo da responsividade */
+
+/* Celulares */
+@media screen and (max-width:800px) {
+    header {
+        .logo {
+            margin: auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 8vw;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .conteudo-principal {
+        width: 100%;
+        display: block;
+        color: #64518c;
+
+        h2 {
+            font-size: 7vw;
+        }
+    }
+
+    aside {
+        width: 100%;
+
+        h2 {
+            font-size: 7vw;
+        }
+    }
+
+    footer {
+        width: 100%;
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        li {
+            font-size: 4vw;
+        }
+    }
+
+    p {
+        font-size: 4vw;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width:800px) and (max-width:1000px) {
+    header {
+        .logo {
+            margin: auto;
+            display: block;
+        }
+
+        h1 {
+            font-size: 8vw;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .conteudo-principal {
+        width: 100%;
+        display: block;
+        color: #64518c;
+
+        h2 {
+            font-size: 7vw;
+        }
+    }
+
+    aside {
+        width: 100%;
+
+        h2 {
+            font-size: 7vw;
+        }
+    }
+
+    footer {
+        width: 100%;
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        li {
+            font-size: 4vw;
+        }
+    }
+
+    p {
+        font-size: 4vw;
+    }
+}
